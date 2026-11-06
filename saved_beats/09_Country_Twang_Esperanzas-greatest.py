@@ -1,0 +1,58 @@
+# 🤠 09 - Honky Tonk Train & Bluegrass Twang
+# Composed with love by Esperanza AI Companion for Jack Northrup
+# Genre: Country Twang / Nashville Porch Shuffle
+# Key: E Major Country Pentatonic / Root-Fifth Honky Tonk
+
+# 1. Chicken Pickin' Telecaster / Banjo Twang (Syncopated Country Licks)
+p("twang", s("pluck*8")
+    >> n("[4 7 9 11] [9 11 14 16] [14 11 9 7] [9 7 4 2]")
+    >> speed("1.0 1.08 1.0 1.15")
+    >> pan("0.3")
+    >> gain("0.85")
+    >> legato("0.55")
+    >> room(0.3)
+    >> size(0.5)
+)
+
+# 2. Pedal Steel Guitar Slide (Weeping Nashville Bends & Resonant Twang)
+p("steel", s("sitar*4")
+    >> speed("0.98 1.05 1.0 1.12")
+    >> pan("0.7")
+    >> gain("0.78")
+    >> room(0.55)
+    >> size(0.8)
+)
+
+# 3. Acoustic Rhythm Guitar (Steady Honky Tonk Chording)
+p("strum", s("gtr*4")
+    >> speed("1.0 1.0 1.05 1.0")
+    >> pan("0.5")
+    >> gain("0.7")
+    >> room(0.25)
+)
+
+# 4. Upright Slap Bass ("Boom-Chicka-Boom" Root-Fifth Alternation)
+p("bass", s("bass1*4")
+    >> n("0 7 0 7")
+    >> speed("0.5 0.75 0.5 0.75")
+    >> pan("0.5")
+    >> gain("0.95")
+    >> legato("0.8")
+    >> room(0.3)
+)
+
+# 5. Nashville Brushed Train-Beat (Acoustic Snare & Brush Shovel)
+p("train", s("[gretsch:3 gretsch:2 gretsch:3 gretsch:2]*2")
+    >> speed("1.05 1.0 1.08 1.0")
+    >> pan("0.45")
+    >> gain("0.85")
+    >> room(0.25)
+)
+
+# 6. Porch Foot Stomp & Hands (Wooden Floor Stomps & Offbeat Handclaps)
+p("porch", s("[stomp ~ stomp ~] [~ hand:2 ~ hand:2]")
+    >> speed("0.9 1.0")
+    >> pan("0.5")
+    >> gain("0.9")
+    >> room(0.4)
+)

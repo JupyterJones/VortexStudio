@@ -1,0 +1,34 @@
+# ==========================================================
+# 📝 JACK NORTHRUP'S BEAT RECIPES & SCRATCHPAD
+# Co-created with Esperanza AI Companion
+# • Read, write, and audition your live coding beat recipes.
+# • Highlight any pattern & click [⬆ Insert into Code] to copy up!
+# • Or click [▶ Run Note Selection] to hear it immediately!
+# ==========================================================
+
+# --- FAVORITE DRUM RECIPES ---
+# 1. Driving Acid House Groove (Speed 1.0, Room 0.35)
+p("drums", s(stack("gabba*4", "cp*2").every(3, fast(2))) >> speed("1 1.2") >> room(0.35))
+
+# 2. Fast Jungle Amen Break (Speed 1.25, Room 0.25)
+p("jungle", s("amencutup*8") >> speed("1 1.25 1.5 2") >> room(0.25))
+
+# 3. Heavy 808 Trap & Snare Roll (Speed 0.95, Room 0.3)
+p("trap", s(stack("808bd*2", "[~ 808sd]", "[~ 808oh]*2", "808*4")) >> speed("1 0.95") >> room(0.3))
+
+# 4. Funky Club Kick & Real Claps
+p("drums", s(stack("clubkick*4", "[~ realclaps]*2", "hh*8")) >> room(0.2))
+
+# --- SYNTH & MELODY RECIPES ---
+# 5. Sci-Fi Glitch Arp (Speed 1.5, Room 0.7, Size 0.9)
+p("synth", s("arpy*8") >> speed("1 1.25 1.5 1.75 2") >> room(0.7) >> size(0.9))
+
+# 6. Deep Sub Bassline
+p("bass", s("bass1*4") >> speed("0.5 0.75 1 0.5") >> room(0.4))
+
+# 7. Ethereal Vowel Filter Pad
+p("pad", s("birds*4") >> speed("0.5 1 0.75") >> vowel("a o e i") >> room(1.8))
+
+# --- JACK NORTHRUP'S PRODUCTION LOG & COMMENTS ---
+# [2026-11-06] The amencutup sample sliced at speed 1.5 makes a sick drum & bass drop.
+# Stacking realclaps with gabba kicks on the 3rd beat gives immense punch.
